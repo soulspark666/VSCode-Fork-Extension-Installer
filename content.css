@@ -1,0 +1,6 @@
+a[href*=':extension/'] {
+    border: 2px solid #2196F3;
+    padding: 2px 5px;
+    border-radius: 4px;
+    background-color: #E3F2FD;
+}

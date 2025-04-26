@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 16px;
+    min-width: 300px;
+}
+.mdc-card {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+.mdc-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.mdc-button {
+    background-color: #2196F3;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 4px;
+}

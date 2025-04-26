@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mdc-card">
+        <h2>Fork Selection</h2>
+        <select id="forkSelect" class="mdc-select">
+            <option value="codium">VSCodium</option>
+            <option value="code-oss">Code - OSS</option>
+            <option value="theia">Theia</option>
+            <option value="trae">Trae</option>
+            <option value="windsurf">Windsurf</option>
+            <option value="cursor">Cursor</option>
+            <option value="positron">Positron</option>
+            <option value="marscode">MarsCode</option>
+        </select>
+        <button id="saveButton" class="mdc-button mdc-button--raised">Save</button>
+        <p id="status"></p>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
