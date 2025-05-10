@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "VS Code Fork Extension Installer",
-    "version": "1.0",
+    "version": "1.2.0",
     "description": "Install extensions from Visual Studio Marketplace on VS Code forks like codium.",
     "permissions": ["activeTab", "storage"],
     "host_permissions": ["https://marketplace.visualstudio.com/*"],
